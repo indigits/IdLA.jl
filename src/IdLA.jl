@@ -1,5 +1,8 @@
 module IdLA
 
-greet() = print("Hello World!")
+export f
+
+f(x,y) = x  + y
+
 
 end # module
